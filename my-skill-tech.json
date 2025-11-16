@@ -1,0 +1,39 @@
+[
+    {
+        "id": 1,
+        "name": "HTML"
+    },
+    {
+        "id": 2,
+        "name": "CSS"
+    },
+    {
+        "id": 3,
+        "name": "JavaScript"
+    },
+    {
+        "id": 4,
+        "name": "Bootstrap"
+    },
+    {
+        "id": 5,
+        "name": "jQuery"
+    },{
+        "id": 6,
+        "name": "PHP"
+    },{
+        "id": 7,
+        "name": "MySQL"
+    },{
+        "id": 8,
+        "name": "CodeIgniter 3 & 4"
+    },
+    {
+        "id": 9,
+        "name": "Wordpress"
+    },
+    {
+        "id": 9,
+        "name": "Elementor"
+    }
+]

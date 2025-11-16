@@ -1,0 +1,14 @@
+[
+    {
+
+        "id": 1,
+        "badge": "Deployed",
+        "category": "Old",
+        "title": "Gate Entry Monitoring System",
+        "description": "This is a capstone project that I rebuild and improved upon, already deployed in our school.",
+        "technologies": "CodeIgniter, MySQL, jQuery, Bootstrap, PHP, HTML, CSS",
+        "features": "Real-time monitoring of gate entries and exits. Easy tracking of student and personnel entries. Ability to send SMS to student parents upon entry and exit. Comprehensive reporting and analytics.",
+        "image": "GEMS.png",
+        "link": ""
+    }
+]

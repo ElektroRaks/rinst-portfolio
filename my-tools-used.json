@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name": "Visual Studio Code",
+        "description": "Code editor"
+    },
+    {
+        "id": 2,
+        "name": "Git",
+        "description": "Version control system"
+    },
+    {
+        "id": 3,
+        "name": "GitHub",
+        "description": "Hosted git repository"
+    },
+    {
+        "id": 4,
+        "name": "Laragon",
+        "description": "Local development environment. Latest php version used"
+    },
+    {
+        "id": 5,
+        "name": "Xampp",
+        "description": "Local development environment. Older php version used"
+    },
+    {
+        "id": 6,
+        "name": "AI Tools",
+        "description": "For research, optimization, and debugging assistance"
+    }
+]
