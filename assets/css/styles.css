@@ -59,7 +59,9 @@ body {
 }
 
 @keyframes spin {
-    to { transform: rotate(360deg); }
+    to {
+        transform: rotate(360deg);
+    }
 }
 
 /* Plugin tooltip if needed */
@@ -85,7 +87,12 @@ body {
 }
 
 /* Typography */
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-weight: 700;
     line-height: 1.2;
 }
@@ -147,8 +154,9 @@ a:hover {
     color: var(--accent-color);
     transition: transform 0.3s ease;
 }
+
 .logo svg {
-  margin-top: -5px;
+    margin-top: -5px;
 }
 
 .logo:hover {
@@ -161,6 +169,7 @@ a:hover {
     gap: 2rem;
     align-items: center;
     padding-top: 12px;
+    margin-left: -65px;
 }
 
 .nav-link {
@@ -270,6 +279,10 @@ a:hover {
     .resume-btn {
         display: none;
     }
+
+    .logo-container {
+        width: 100%;
+    }
 }
 
 /* ========================================
@@ -297,15 +310,18 @@ a:hover {
     right: 0;
     bottom: 0;
     background: radial-gradient(circle at 20% 50%, rgba(125, 171, 96, 0.05) 0%, transparent 50%),
-                radial-gradient(circle at 80% 80%, rgba(125, 171, 96, 0.03) 0%, transparent 50%);
+        radial-gradient(circle at 80% 80%, rgba(125, 171, 96, 0.03) 0%, transparent 50%);
     pointer-events: none;
     animation: gradientShift 15s ease-in-out infinite;
 }
 
 @keyframes gradientShift {
-    0%, 100% {
+
+    0%,
+    100% {
         opacity: 0.5;
     }
+
     50% {
         opacity: 0.8;
     }
@@ -449,11 +465,13 @@ a:hover {
     align-items: center;
 }
 
-.about-text,.about-note {
+.about-text,
+.about-note {
     font-size: 1.125rem;
     color: var(--text-secondary);
     line-height: 1.8;
 }
+
 .metrics-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -959,6 +977,7 @@ a:hover {
         opacity: 0;
         transform: translateY(30px);
     }
+
     to {
         opacity: 1;
         transform: translateY(0);
@@ -970,6 +989,7 @@ a:hover {
         opacity: 0;
         transform: translateY(-30px);
     }
+
     to {
         opacity: 1;
         transform: translateY(0);
@@ -980,15 +1000,19 @@ a:hover {
     from {
         opacity: 0;
     }
+
     to {
         opacity: 1;
     }
 }
 
 @keyframes bounce {
-    0%, 100% {
+
+    0%,
+    100% {
         transform: translateY(0);
     }
+
     50% {
         transform: translateY(-10px);
     }
